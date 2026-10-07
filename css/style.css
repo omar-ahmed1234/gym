@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3498db;
+    color: #222;
+}
+
+/* Header */
+
+header {
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+
+nav a {
+    color: #1976d2;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0d47a1;
+}
+
+/* Main */
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* All Sections */
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+/* Home */
+
+.hero {
+    text-align: center;
+}
+
+.hero h2 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+    background-color: #1976d2;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0d47a1;
+}
+
+/* Importance */
+
+.importance h2 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.importance p {
+    line-height: 1.7;
+}
+
+/* About */
+
+.about h2 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.7;
+}
+
+/* Benefits */
+
+.benefits h2 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.benefits p {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* Programs */
+
+.programs h2 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.programs p {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* Contact */
+
+.contact {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.contact h2 {
+    color: #1976d2;
+    margin-bottom: 25px;
+}
+
+/* Form */
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Radio Buttons */
+
+input[type="radio"] {
+    margin-top: 8px;
+}
+
+/* Checkboxes */
+
+input[type="checkbox"] {
+    margin-top: 8px;
+}
+
+/* Send Button */
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+/* Footer */
+
+footer {
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    color: #1976d2;
+    border-radius: 8px;
+}
